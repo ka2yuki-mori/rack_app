@@ -1,6 +1,6 @@
 class App
   def call(env)
-    pp env
+    # pp env
     status = 200
     headers = {"content-type" => "text/plain"}
     body = ["sample"]
